@@ -1,6 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+background: #999898;
+color: #0f141e;
+font-size: 14px;
+font-family: 'roboto', verdana;
+font-weight: normal;
+}
+.container {
+max-width: 600px;
+margin: auto;
+padding-top: 30px;
+}
+.card h2 {
+    margin-bottom: 5px;
+}
+.card h1 {
+    margin-bottom: 5px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.osebe1 {
+    color: #0f141e;
+    margin: 0px;
+/* letter-spacing: 8px;
+color: #2d71e7;
+text-decoration: underline; */
+}
 h2 {
     color: rgba(255, 0, 187, 0.822);
 }
 h1 {
     color: blueviolet;
 }
+.card {
+    padding: 15px;
+    border-radius: 5px;
+    /* border: 3px solid green; */
+    margin-bottom: 15px;
+}
+.c1 {
+    background: lightblue;
+}
+.c2 {
+    background: rgb(242, 251, 196);
+    }
+.c3 {
+    background: rgb(186, 244, 183);
+}
+.btn {
+    background: #d755ce;
+    padding: 5px 10px;
+    color: #fff;
+    border: 5px solid rgba(236, 157, 209, 0.5);
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: .8;
+}
+a{
+    color: #277310;
+    text-decoration: none;
+    transition: all.2s;
+}
+a:hover {
+    color: #ef0606;
+    text-decoration: underline;
+    font-size: 1.02rem;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: rgb(55, 55, 54);    
+    }
+.table {
+    width: 95%;
+    color: #033577;
+ }
+ .table td {
+text-align: left;
+padding-bottom: 3px;
+ }
+ .table td:nth-child(2), .table td:nth-child(3) {
+    color: #4c4d4e;
+ }
+ .table th {
+text-align: left;
+padding:5px;
+ }
+ .table th:nth-child(1), .table th:nth-child(2), .table th:nth-child(3) {
+    background: #ecb8e3;
+ }
+.list {
+    margin: 0;
+    padding: 0 320px 0 0;
+    list-style: none;
+    color: #033577;
+}
+.list li {
+    margin-bottom: 3px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+.list2 {
+    list-style: disc;
+}
+.list2  li {
+    font-weight: normal;
+    border-bottom: none;
+}
+.form h2 {
+    text-align: center;
+}
+.formGroup label {
+    display: block;
+    font-size: 14px;
+    color: #033577;
+}
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #f507c5;
+    color: #033577;
+    padding: 5px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.box {
+   margin-bottom: 10px;
+   display: inline-block;
+}
+.formGroup, .box {
+    width: 40%;
+    margin-right: 10px;
+}
+.osebe {
+    margin-bottom: 20px;
+    display: flex;
+}
+.name {
+    margin-left: 25px;
+}
+@media (max-width: 650px) {
+    .osebe, .osebe1 {
+        font-size: 0.8rem;
+        text-align: left;
+        display: block;
+    }
+
+    @media (max-width: 650px) {
+        .formGroup {
+           display: block;
+           width: 80%;
+           margin-bottom: 15px;
+        }
+        @media (max-width: 650px) {
+            .table {
+                font-size: 0.5rem;
+                padding-left: 0;
+        
+            }
